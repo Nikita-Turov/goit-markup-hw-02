@@ -1,0 +1,212 @@
+:root {
+  --primary-font: "Roboto", sans-serif;
+  --logo-font: "Raleway", sans-serif;
+  --primary-color: #757575;
+  --second-color: #212121;
+  --accent-color: #2196f3;
+  --bcg-color: #f5f4fa;
+  --white-color: #ffffff;
+}
+/* ==================== GENERAL ========= */
+
+body {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+}
+
+.logo {
+  font-family: var(--logo-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+}
+
+.link {
+  text-decoration: none;
+  font-family: inherit;
+  font-style: inherit;
+}
+
+.logo-accent {
+  color: var(--accent-color);
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.667;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-color);
+}
+
+.auth-nav:hover,
+.site-nav-link:hover,
+.auth-nav:focus,
+.site-nav-link:focus,
+.address-contact:hover .address-contact:focus,
+.address-map:hover,
+.address-map:focus {
+  color: var(--accent-color);
+}
+/* ==================== END GENERAL ========= */
+
+/* ==================== header ========= */
+
+.logo-header-second {
+  color: var(--second-color);
+}
+
+.site-nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: var(--second-color);
+}
+
+.auth-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: var(--primary-color);
+}
+
+.current {
+  color: var(--accent-color);
+}
+/* ==================== END header ========= */
+
+/* ==================== hero ========= */
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.364;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  /* color: var(--white-color) */
+}
+
+.order-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  text-align: center;
+  letter-spacing: 0.06em;
+  /* color: var(--white-color); */
+}
+
+/* ==================== END hero ========= */
+
+/* ==================== what we do ========= */
+.features-item {
+  color: var(--second-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.features-descr {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--primary-color);
+}
+
+/* ==================== end what we do========= */
+
+/* ==================== our team========= */
+.our-team-list-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.188;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-color);
+}
+
+.our-team-list-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.188;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-color);
+}
+
+/* ==================== end our team========= */
+
+/* ==================== footer========= */
+
+.logo-footer-second {
+  /* color: var(--white-color); */
+}
+
+.address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  /* color: var(--white-color) */
+}
+
+.address-map {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  /* color: var(--white-color); */
+}
+
+.address-contact {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.174;
+  letter-spacing: 0.03em;
+  /* color: rgba(255, 255, 255, 0.6); */
+}
+/* ==================== end footer========= */
+
+/* ==================== portfolio main ========= */
+
+.portfolio-filter-btn {
+  font-family: inherit;
+  font-style: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-color);
+}
+
+.portfolio-examples {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: var(--primary-color);
+}
+
+.portfolio > h2 {
+  color: var(--second-color);
+}
+/* ==================== end portfolio main ========= */
