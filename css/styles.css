@@ -17,6 +17,12 @@ body {
   line-height: 1.714;
   letter-spacing: 0.03em;
 }
+.ul-dot,
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
 .logo {
   font-family: var(--logo-font);
@@ -49,10 +55,25 @@ body {
 .site-nav-link:hover,
 .auth-nav:focus,
 .site-nav-link:focus,
-.address-contact:hover .address-contact:focus,
+.address-contact:hover,
+.address-contact:focus,
 .address-map:hover,
 .address-map:focus {
   color: var(--accent-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 /* ==================== END GENERAL ========= */
 
@@ -92,7 +113,9 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  /* color: var(--white-color) */
+  color: var(--white-color);
+  /* фон для выделения текста */
+  background-color: #2f303a;
 }
 
 .order-btn {
@@ -101,7 +124,8 @@ body {
   line-height: 1.875;
   text-align: center;
   letter-spacing: 0.06em;
-  /* color: var(--white-color); */
+  color: var(--white-color);
+  background-color: var(--accent-color);
 }
 
 /* ==================== END hero ========= */
@@ -150,7 +174,9 @@ body {
 /* ==================== footer========= */
 
 .logo-footer-second {
-  /* color: var(--white-color); */
+  color: var(--white-color);
+  /* фон для выделения текста */
+  background-color: #2f303a;
 }
 
 .address {
@@ -158,7 +184,9 @@ body {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  /* color: var(--white-color) */
+  color: var(--white-color);
+  /* фон для выделения текста */
+  background-color: #2f303a;
 }
 
 .address-map {
@@ -166,7 +194,9 @@ body {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  /* color: var(--white-color); */
+  color: var(--white-color);
+  /* фон для выделения текста */
+  background-color: #2f303a;
 }
 
 .address-contact {
@@ -174,7 +204,9 @@ body {
   font-size: 14px;
   line-height: 1.174;
   letter-spacing: 0.03em;
-  /* color: rgba(255, 255, 255, 0.6); */
+  color: rgba(255, 255, 255, 0.6);
+  /* фон для выделения текста */
+  background-color: #2f303a;
 }
 /* ==================== end footer========= */
 
@@ -189,6 +221,11 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-color);
+}
+.portfolio-filter-btn:hover,
+.portfolio-filter-btn:focus {
+  background-color: var(--accent-color);
+  color: var(--white-color);
 }
 
 .portfolio-examples {
