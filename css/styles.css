@@ -32,8 +32,10 @@ footer ul {
   padding: 0;
 }
 
-.logo {
+header > .logo,
+footer > .logo {
   font-family: var(--logo-font);
+  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.192;
@@ -47,6 +49,7 @@ footer ul {
 }
 
 .logo-accent {
+  font-family: inherit;
   color: var(--accent-color);
 }
 
@@ -88,6 +91,7 @@ footer ul {
 /* ==================== header ========= */
 
 .logo-header-second {
+  font-family: inherit;
   color: var(--second-color);
 }
 
@@ -182,6 +186,7 @@ footer ul {
 /* ==================== footer========= */
 
 .logo-footer-second {
+  font-family: inherit;
   color: var(--white-color);
   /* фон для выделения текста */
   background-color: #2f303a;
