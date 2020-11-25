@@ -212,7 +212,8 @@ footer > .logo {
   background-color: #2f303a;
 }
 
-.address-contact {
+.address-contact,
+footer > li > .address-contact {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.174;
