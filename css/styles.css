@@ -1,11 +1,29 @@
 html {
   box-sizing: border-box;
 }
+
 *,
 *::before,
 *::after {
   box-sizing: inherit;
 }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   --primary-font: "Roboto", sans-serif;
   --logo-font: "Raleway", sans-serif;
@@ -24,12 +42,6 @@ body {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-}
-.ul-dot,
-footer ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
 }
 
 header > .logo,
@@ -200,6 +212,7 @@ footer > .logo {
   color: var(--white-color);
   /* фон для выделения текста */
   background-color: #2f303a;
+  font-style: normal;
 }
 
 .address-map {
